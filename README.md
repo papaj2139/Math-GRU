@@ -28,10 +28,15 @@ the training runs for 200,000 epochs, prints loss every 1,000, and evaluates tes
 ## Architecture
 
 Vocab size - 13 (`0-9`, `+`, `-`, `=`) 
+
 Embedding dim - 16 
+
 Hidden dim - 64
+
 Parameters - ~17K 
+
 Batch size - 16 
+
 Learning rate - 0.005 
 
 All set by #define's at the top of the src/gru.c file
